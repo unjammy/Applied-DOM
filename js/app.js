@@ -274,5 +274,7 @@
    * Hint: Do not declare a new function expression as an event handler.
    */
 
+   btn15.addEventListener("click", setMyLightClass.bind(btn15, event, 'light-green'));
+
 
 }(window));
